@@ -1,0 +1,9 @@
+.footer__links_app {
+  margin-right: 33px;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .footer__links_app {
+    margin-right: 8px;
+  }
+}

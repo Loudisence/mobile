@@ -1,0 +1,15 @@
+.main__subtitle-span {
+  font-family: "Druk Text Wide";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47.5px;
+  line-height: 47px;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .main__subtitle-span {
+    font-size: 22.2px;
+    line-height: 22px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,6 @@
+@media (min-width: 320px) and (max-width: 720px) {
+  .footer__partners {
+    margin-bottom: 11px;
+    order: 3;
+  }
+}

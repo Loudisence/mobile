@@ -1,0 +1,17 @@
+.main__info-span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22.5px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .main__info-span {
+    font-size: 10.5px;
+    line-height: 12px;
+    text-align: center;
+  }
+}

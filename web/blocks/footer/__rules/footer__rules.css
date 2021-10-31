@@ -1,0 +1,23 @@
+.footer__rules {
+  margin-top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #ffffff;
+  background: none;
+  height: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .footer__rules {
+    margin: 10px auto 8px;
+    order: 1;
+    font-size: 10px;
+    line-height: 12px;
+    height: 16px;
+    width: 100%;
+  }
+}

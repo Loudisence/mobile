@@ -1,0 +1,29 @@
+.main__button {
+  margin-top: 27px;
+  width: 327px;
+  height: 86px;
+  left: 121px;
+  top: 586px;
+  background: #ffcc00;
+  border-radius: 10px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  color: #000000;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .main__button {
+    display: flex;
+    margin: 24px auto 27px;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    height: 38px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

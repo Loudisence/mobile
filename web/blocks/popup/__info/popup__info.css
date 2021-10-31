@@ -1,0 +1,40 @@
+.popup__info {
+  height: 458px;
+  overflow-y: auto;
+  margin: 27px 30px 42px 45px;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2e2e2e;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 163px;
+  background: #ffffff;
+  border-radius: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .popup__info {
+    height: 334px;
+    margin: 0 15px 5px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    height: 60px;
+  }
+
+  ::-webkit-scrollbar-track {
+    margin-top: -20px;
+    margin-bottom: 5px;
+  }
+}

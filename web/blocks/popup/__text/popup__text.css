@@ -1,0 +1,16 @@
+.popup__text {
+  margin: 0 37px 0 0;
+  font-family: "Roboto";
+  max-width: 479px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 130%;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .popup__text {
+    margin-right: 23px;
+    font-size: 12px;
+  }
+}

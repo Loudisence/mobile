@@ -1,0 +1,18 @@
+.popup__rules {
+  margin: 33px auto 2px;
+  font-family: "Druk Text Wide";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .popup__rules {
+    margin-top: 33px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+}

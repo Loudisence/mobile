@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 53px auto;
+  width: 80%;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

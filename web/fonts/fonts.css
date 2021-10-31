@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+    src: url("../fonts/RobotoCondensed-Bold.woff") format("woff");
+    src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2");
+  }
+
+
+
+@font-face {
+  font-family: "Druk Wide";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Druk_Wide_Bold.ttf") format("truetype");
+  src: url("../fonts/Druk_Wide_Bold.woff") format("woff");
+  src: url("../fonts/Druk_Wide_Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Druk Text Wide";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/DrukTextWide-Bold.ttf") format("truetype");
+    src: url("../fonts/Druk_Text_Wide_Bold.woff") format("woff");
+    src: url("../fonts/Druk_Text_Wide_Bold.woff2") format("woff2");
+  }

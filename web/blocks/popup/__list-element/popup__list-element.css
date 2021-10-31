@@ -1,0 +1,12 @@
+.popup__list-element {
+  margin-bottom: 31px;
+  list-style-position: outside;
+}
+
+.popup__list-element:last-of-type {
+  margin-bottom: 0;
+}
+
+.popup__list-element::marker {
+  color: #ffcc00;
+}

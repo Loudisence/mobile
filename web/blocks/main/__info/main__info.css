@@ -1,0 +1,19 @@
+.main__info {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .main__info {
+    font-size: 12.5px;
+    line-height: 15px;
+    text-align: center;
+  }
+}

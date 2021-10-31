@@ -1,0 +1,22 @@
+.main__subtitle {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: -10px;
+  font-family: "Druk Text Wide";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 67px;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .main__subtitle {
+    margin-bottom: 8px;
+    margin-top: -3px;
+    font-size: 31.2px;
+    line-height: 31px;
+    text-align: center;
+  }
+}

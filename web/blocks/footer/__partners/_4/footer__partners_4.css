@@ -1,0 +1,10 @@
+.footer__partners_4 {
+  margin-right: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .footer__partners_4 {
+    margin-right: 10px;
+    max-width: 16px;
+  }
+}

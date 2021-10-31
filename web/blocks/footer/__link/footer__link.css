@@ -1,0 +1,15 @@
+.footer__link {
+  max-width: 150px;
+  min-height: 44px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .footer__link {
+    max-width: 68px;
+    min-height: 20px;
+    margin-top: 0;
+    margin-bottom: 13px;
+  }
+}
